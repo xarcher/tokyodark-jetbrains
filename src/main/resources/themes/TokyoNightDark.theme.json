@@ -119,10 +119,10 @@
             "nonEditableBackground": "hoverBackground"
         },
         "CompletionPopup": {
-            "foreground": "fgDark",
-            "selectionBackground": "green1",
+            "foreground": "fg",
+            "selectionBackground": "blue7",
             "selectionInactiveBackground": "selectionInactiveBackground",
-            "matchForeground": "bgHi"
+            "matchForeground": "orange"
         },
         "Component": {
             "focusColor": "hoverBackground",
