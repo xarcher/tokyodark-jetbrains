@@ -1221,7 +1221,9 @@
             </value>
         </option>
         <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
-            <value/>
+            <value>
+                <option name="BACKGROUND" value="#402F33"/>
+            </value>
         </option>
         <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
             <value>
