@@ -4,7 +4,8 @@
 
 A dark Jetbrains theme ported from the Visual Studio Code [TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme) theme.
 
-There are 2 variants here:
+A fork from [alexdhy/tokyonight-jetbrains](https://github.com/alexadhy/tokyonight-jetbrains) only supporting
+the dark variant.
 
 - TokyoNight Dark
 
