@@ -1,18 +1,15 @@
-# 🏙 Tokyo Night
-
-<!-- Plugin description -->
+# 🏙 Tokyo Dark
 
 A dark Jetbrains theme ported from the Visual Studio Code [TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme) theme.
 
 A fork from [alexdhy/tokyonight-jetbrains](https://github.com/alexadhy/tokyonight-jetbrains) only supporting
-the dark variant.
+the dark variant. If you need other variants then look there.
 
-- TokyoNight Dark
+- TokyoDark
 
-<p align="center">
-    <img src="https://github.com/junkfactory/tokyonight-jetbrains/blob/main/static/golang_tokyonight_dark.png"/>
-    <img src="https://github.com/junkfactory/tokyonight-jetbrains/blob/main/static/python_tokyonight_dark.png"/>
-</p>
+![Java](./static/java_tokyonight_dark.png)
+![GoLang](./static/golang_tokyonight_dark.png)
+![Python](./static/python_tokyonight_dark.png)
 
 ## Differences between this one and the theme by Grafikart
 
@@ -25,12 +22,10 @@ the dark variant.
 
 _On Your Jetbrains IDE_:
 
-- <kbd>Open Settings/Preferences</kbd>
-- <kbd>Plugins</kbd>
-- <kbd>Marketplace</kbd>
-- <kbd>Search for "TokyoNight Theme - Dark Only"</kbd> >
-- <kbd>Install Plugin</kbd>
+- Open Settings/Preferences
+- Plugins
+- Marketplace
+- Search for "TokyoDark Theme"
+- Install Plugin
 
-<p align="center">Copyright &copy; 2024-present <a href="https://github.com/junkfactory/tokyonight-jetbrains" target="_blank">Junk F. Actory</a>
-
-<!-- Plugin description end -->
+Copyright &copy; 2024-present [Junk F. Actory](https://github.com/junkfactory/tokyonight-jetbrains)

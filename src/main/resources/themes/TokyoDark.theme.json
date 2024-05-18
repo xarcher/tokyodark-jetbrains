@@ -1,8 +1,8 @@
 {
-  "name": "TokyoNight Dark",
+  "name": "TokyoDark",
   "dark": true,
   "author": "Junk F. Actory <2998269+junkfactory@users.noreply.github.com>",
-  "editorScheme": "/themes/TokyoNightDark.xml",
+  "editorScheme": "/themes/TokyoDark.xml",
   "colors": {
     "bgHi": "#161720",
     "bg": "#1a1b26",

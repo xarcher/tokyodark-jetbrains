@@ -1,13 +1,15 @@
 <idea-plugin>
-  <id>com.junkfactory.tokyonight</id>
-  <name>Tokyo Night Theme - Dark Only</name>
+  <id>com.junkfactory.tokyodark</id>
+  <name>Tokyo Dark Theme</name>
   <vendor email="2998269+junkfactory@users.noreply.github.com" url="https://github.com/junkfactory/tokyonight-jetbrains">Junk F. Actory</vendor>
   <description><![CDATA[
-      Tokyo Night is a theme ported from wildly popular (https://github.com/enkia/tokyo-night-vscode-theme).
-      Currently only Tokyo Night Storm is available, but that could change later.
+      Tokyo Dark is a theme ported from wildly popular (https://github.com/enkia/tokyo-night-vscode-theme).
+      Only Tokyo Night Dark is available.
+
+      See https://github.com/junkfactory/tokyonight-jetbrains
     ]]></description>
   <depends>com.intellij.modules.platform</depends>
   <extensions defaultExtensionNs="com.intellij">
-    <themeProvider id="com.junkfactory.tokyonight-dark" path="/themes/TokyoNightDark.theme.json"></themeProvider>
+    <themeProvider id="com.junkfactory.tokyodark" path="/themes/TokyoDark.theme.json"></themeProvider>
   </extensions>
 </idea-plugin>

@@ -1,4 +1,4 @@
-<scheme name="TokyoNightDark" parent_scheme="Darcula" version="142">
+<scheme name="TokyoDark" parent_scheme="Darcula" version="142">
   <colors>
     <option name="ADDED_LINES_COLOR" value="73daca"></option>
     <option name="ANNOTATIONS_COLOR" value="c0caf5"></option>
