@@ -1,15 +1,21 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
-# TokyoNight Theme Changelog
+# TokyoNight Theme Dark Only Changelog
 
 ## [Unreleased]
 
 ### Added
 
+## 0.2.0
+
+- Removed unsupported themes, only dark is supported
+
 ## [0.1.5] - 15.11.2022
+
 - Added line coverage colors
 
 ## [0.1.4] - 13.11.2022
+
 - Fixed completion colors for Tokyonight Dark
 - Breakpoint background color for all variants.
 
