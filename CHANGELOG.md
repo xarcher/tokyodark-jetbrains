@@ -6,6 +6,10 @@
 
 ### Added
 
+## 0.2.1
+
+- Changed line number highlight color
+
 ## 0.2.0
 
 - Removed unsupported themes, only dark is supported
