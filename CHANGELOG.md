@@ -6,6 +6,10 @@
 
 ### Added
 
+## 0.2.2
+
+- Changed background under caret and search instances
+
 ## 0.2.1
 
 - Changed line number highlight color
