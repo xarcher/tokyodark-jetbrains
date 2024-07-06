@@ -6,6 +6,10 @@
 
 ### Added
 
+## 0.2.3
+
+- Correct search term for Jetbrains Marketplace
+
 ## 0.2.2
 
 - Changed background under caret and search instances
@@ -17,4 +21,4 @@
 ## 0.2.0
 
 - Removed unsupported themes, only dark is supported
-- Fork from https://github.com/alexadhy/tokyonight-jetbrains
+- Fork from <https://github.com/alexadhy/tokyonight-jetbrains>
