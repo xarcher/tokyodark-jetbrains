@@ -5,8 +5,10 @@
 A dark Jetbrains theme ported from the Visual Studio Code
 [TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme) theme.
 
-A fork from [alexdhy/tokyonight-jetbrains](https://github.com/alexadhy/tokyonight-jetbrains) only supporting
-the dark variant. If you need other variants then look there.
+Originally a fork from [alexdhy/tokyonight-jetbrains](https://github.com/alexadhy/tokyonight-jetbrains)
+only supporting the dark variant. If you need other variants then look there.
+
+Moved from [junkfactory/tokyonight-jetbrains](https://github.com/junkfactory/tokyonight-jetbrains)
 
 <!-- Plugin description end -->
 
@@ -31,7 +33,7 @@ _On Your Jetbrains IDE_:
 - Open Settings/Preferences
 - Plugins
 - Marketplace
-- Search for "Tokyo Night Dark Theme"
+- Search for "Tokyo Dark"
 - Install Plugin
 
-Copyright &copy; 2024-present [Junk F. Actory](https://github.com/junkfactory/tokyonight-jetbrains)
+Copyright &copy; 2025-present [Junk F. Actory](https://github.com/junkfactory/tokyonight-jetbrains)
