@@ -1,11 +1,11 @@
 {
-  "name": "TokyoDark",
+  "name": "TokyoDark Storm",
   "dark": true,
   "author": "Junk F. Actory <2998269+junkfactory@users.noreply.github.com>",
-  "editorScheme": "/themes/TokyoDark.xml",
+  "editorScheme": "/themes/TokyoDarkStorm.xml",
   "colors": {
-    "bgHi": "#161720",
-    "bg": "#1a1b26",
+    "bgHi": "#202435",
+    "bg": "#24283b",
     "terminalBlack": "#414868",
     "fg": "#c0caf5",
     "fgDark": "#a9b1d6",
@@ -43,13 +43,13 @@
       "acceleratorForeground": "blue",
       "acceleratorSelectionForeground": "blue",
       "arc": 7,
-      "background": "bg",
+      "background": "#202435",
       "foreground": "fgDark",
       "caretForeground": "fgDark",
       "infoForeground": "fgDark",
       "selectionForeground": "fg",
       "selectionInactiveForeground": "fg",
-      "selectionBackground": "#304285",
+      "selectionBackground": "selectionBackground",
       "selectionInactiveBackground": "selectionInactiveBackground",
       "inactiveBackground": "bgHi",
       "disabledBackground": "bgHi",
@@ -58,6 +58,10 @@
       "borderColor": "bgHi",
       "separatorColor": "separatorColor"
     },
+    "Label.foreground": "fgDark",
+    "Label.background": "bg",
+    "Panel.background": "bg",
+    "Window.border": "1,1,1,1,24283b",
     "Borders": {
       "color": "bgHi",
       "ContrastBorderColor": "hoverBackground"
@@ -79,8 +83,8 @@
       "startBorderColor": "hoverBackground",
       "endBorderColor": "hoverBackground",
       "shadowColor": "shadowColor",
-      "startBackground": "hoverBackground",
-      "endBackground": "hoverBackground",
+      "startBackground": "bg",
+      "endBackground": "bg",
       "focusedBorderColor": "blue0",
       "disabledBorderColor": "bgHi",
       "default": {
@@ -149,7 +153,7 @@
       "underlinedTabBackground": "hoverBackground"
     },
     "Editor": {
-      "background": "bgHi",
+      "background": "bg",
       "shortcutForeground": "blue"
     },
     "FileColor": {
@@ -337,7 +341,7 @@
       },
       "Header": {
         "background": "bg",
-        "inactiveBackground": "bgHi",
+        "inactiveBackground": "bg",
         "borderColor": "hoverBackground"
       },
       "HeaderTab": {
@@ -388,16 +392,19 @@
       }
     },
     "WelcomeScreen": {
+      "background": "bg",
       "SidePanel": {
         "background": "bg"
       },
       "separatorColor": "fgGutter",
       "Projects": {
         "background": "bg",
-        "selectionBackground": "hoverBackground",
+        "selectionBackground": "selectionBackground",
         "selectionInactiveBackground": "hoverBackground",
         "actions": {
-          "background": "hoverBackground"
+          "background": "bg",
+          "selectionBackground": "selectionBackground",
+          "selectionBorderColor": "selectionBackground"
         }
       }
     },
