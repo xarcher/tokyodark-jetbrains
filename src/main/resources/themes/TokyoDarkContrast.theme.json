@@ -50,7 +50,7 @@
       "infoForeground": "fgDark",
       "selectionForeground": "fg",
       "selectionInactiveForeground": "fg",
-      "selectionBackground": "#1a1b26",
+      "selectionBackground": "selectionBackground",
       "selectionInactiveBackground": "selectionInactiveBackground",
       "inactiveBackground": "inactiveBackground",
       "disabledBackground": "bgHi",
@@ -59,7 +59,10 @@
       "borderColor": "bg",
       "separatorColor": "separatorColor"
     },
-    "MemoryIndicator.usedBackground": "bgHi",
+    "MemoryIndicator": {
+      "usedBackground": "#455591",
+      "allocatedBackground": "#59689d"
+    },
     "ComplexPopup": {
       "Header.background": "bg"
     },
@@ -83,7 +86,8 @@
       "foreground": "fg",
       "startBorderColor": "bgHi",
       "endBorderColor": "bgHi",
-      "shadowColor": "bgHi",
+      "shadowColor": "hoverBackground",
+      "shadowWidth": 0,
       "startBackground": "hoverBackground",
       "endBackground": "hoverBackground",
       "focusedBorderColor": "blue0",
@@ -113,7 +117,7 @@
         "disabledIconColor": "comment",
         "iconColor": "blue"
       },
-      "selectionBackground": "hoverBackground",
+      "selectionBackground": "selectionBackground",
       "nonEditableBackground": "bgHi"
     },
     "ComboPopup.border": "1,1,1,1",
@@ -177,10 +181,12 @@
       "pressedForeground": "magenta"
     },
     "Menu": {
-      "selectionBackground": "hoverBackground"
+      "selectionBackground": "bgHi",
+      "background": "bg"
     },
     "MenuItem": {
-      "selectionBackground": "hoverBackground"
+      "selectionBackground": "bgHi",
+      "background": "bg"
     },
     "List": {
       "background": "bgHi",
@@ -189,7 +195,8 @@
         "separatorInset": 4,
         "leftRightInset": 8
       },
-      "selectionBackground": "hoverBackground"
+      "selectionBackground": "selectionBackground",
+      "selectionInactiveBackground": "selectionInactiveBackground"
     },
     "MainToolbar": {
       "Icon": {
@@ -221,10 +228,11 @@
     },
     "Plugins": {
       "SearchField": {
-        "background": "hoverBackground"
+        "background": "bgHi"
       },
       "SectionHeader": {
-        "foreground": "fg"
+        "foreground": "fg",
+        "background": "bgHi"
       },
       "hoverBackground": "hoverBackground",
       "lightSelectionBackground": "hoverBackground",
@@ -260,7 +268,7 @@
       "background": "bgHi",
       "borderWidth": 1,
       "Toolbar.borderColor": "bg",
-      "Toolbar.background": "bgHi",
+      "Toolbar.background": "bg",
       "Header": {
         "activeBackground": "bg",
         "inactiveBackground": "hoverBackground"
@@ -274,17 +282,17 @@
       "iconSize": 24
     },
     "RadioButtonMenuItem": {
-      "selectionBackground": "hoverBackground"
+      "selectionBackground": "selectionBackground"
     },
     "ScrollBar": {
-      "hoverTrackColor": "selectionBackground",
+      "hoverTrackColor": "hoverBackground",
       "background": "bgHi",
-      "thumbColor": "selectionBackground",
+      "thumbColor": "bg",
       "Mac": {
         "hoverThumbColor": "hoverBackground",
-        "thumbColor": "selectionBackground",
+        "thumbColor": "bg",
         "Transparent": {
-          "thumbColor": "selectionBackground"
+          "thumbColor": "bg"
         }
       }
     },
@@ -330,7 +338,9 @@
     },
     "Table": {
       "gridColor": "hoverBackground",
-      "hoverBackground": "hoverBackground"
+      "hoverBackground": "hoverBackground",
+      "background": "bgHi",
+      "selectionBackground": "selectionBackground"
     },
     "TableHeader": {
       "bottomSeparatorColor": "fgGutter"
@@ -340,7 +350,8 @@
     },
     "TextField": {
       "background": "bgHi",
-      "minimumSize": "49,28"
+      "minimumSize": "49,28",
+      "selectionBackground": "selectionBackground"
     },
     "TitlePane": {
       "background": "bgHi",
@@ -366,19 +377,15 @@
         "hoverBackground": "hoverBackground"
       },
       "Header": {
-        "background": "bgHi",
+        "background": "bg",
         "inactiveBackground": "bgHi",
-        "borderColor": "bgHi",
-        "height": 24
+        "borderColor": "bg"
       },
       "HeaderTab": {
         "underlineColor": "magenta2",
         "inactiveUnderlineColor": "fgDark",
         "underlineHeight": 1,
-        "underlinedTabBackground": "bg",
-        "selectedInactiveBackground": "bg",
-        "hoverBackground": "hoverBackground",
-        "underlinedTabInactiveBackground": "bg"
+        "hoverBackground": "hoverBackground"
       }
     },
     "Tree": {
@@ -386,7 +393,7 @@
       "modifiedItemForeground": "orange",
       "hoverBackground": "hoverBackground",
       "selectionBackground": "bgHi",
-      "selectionInactiveBackground": "hoverBackground",
+      "selectionInactiveBackground": "selectionInactiveBackground",
       "rowHeight": 24
     },
     "ValidationTooltip": {
