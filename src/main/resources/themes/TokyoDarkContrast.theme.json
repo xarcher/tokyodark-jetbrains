@@ -73,8 +73,8 @@
     "ActionButton": {
       "hoverBackground": "hoverBackground",
       "hoverBorderColor": "hoverBackground",
-      "pressedBackground": "hoverBackground",
-      "pressedBorderColor": "hoverBackground"
+      "pressedBackground": "selectionInactiveBackground",
+      "pressedBorderColor": "selectionInactiveBackground"
     },
     "Bookmark": {
       "iconBackground": "blue",
@@ -189,9 +189,11 @@
       "background": "bg"
     },
     "List": {
+      "hoverBackground": "hoverBackground",
       "background": "bgHi",
       "rowHeight": 24,
       "Button": {
+        "hoverBackground": "hoverBackground",
         "separatorInset": 4,
         "leftRightInset": 8
       },
@@ -374,12 +376,11 @@
     "ToolWindow": {
       "background": "bg",
       "Button": {
-        "hoverBackground": "hoverBackground"
+        "hoverBackground": "hoverBackground",
+        "selectedBackground": "bgHi"
       },
       "Header": {
-        "background": "bg",
-        "inactiveBackground": "bgHi",
-        "borderColor": "bg"
+        "inactiveBackground": "bgHi"
       },
       "HeaderTab": {
         "underlineColor": "magenta2",
