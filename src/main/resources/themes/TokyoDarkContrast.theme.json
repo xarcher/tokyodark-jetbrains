@@ -390,10 +390,11 @@
       }
     },
     "Tree": {
-      "background": "bgHi",
+      "background": "bg",
       "modifiedItemForeground": "orange",
       "hoverBackground": "hoverBackground",
-      "selectionBackground": "bgHi",
+      "hoverInactiveBackground": "hoverBackground",
+      "selectionBackground": "selectionInactiveBackground",
       "selectionInactiveBackground": "selectionInactiveBackground",
       "rowHeight": 24
     },
