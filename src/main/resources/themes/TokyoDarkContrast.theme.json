@@ -54,9 +54,9 @@
       "selectionInactiveBackground": "selectionInactiveBackground",
       "inactiveBackground": "inactiveBackground",
       "disabledBackground": "bgHi",
-      "disabledBorderColor": "bgHi",
+      "disabledBorderColor": "hoverBackground",
       "disabledForeground": "dark5",
-      "borderColor": "bg",
+      "borderColor": "bgHi",
       "separatorColor": "separatorColor"
     },
     "MemoryIndicator": {
@@ -67,8 +67,8 @@
       "Header.background": "bg"
     },
     "Borders": {
-      "color": "bg",
-      "ContrastBorderColor": "inactiveBackground"
+      "color": "bgHi",
+      "ContrastBorderColor": "hoverBackground"
     },
     "ActionButton": {
       "hoverBackground": "hoverBackground",
