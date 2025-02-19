@@ -297,12 +297,8 @@
       "selectionBackground": "selectionBackground"
     },
     "ScrollBar": {
-      "trackColor": "bg",
-      "hoverTrackColor": "bg",
       "background": "bgHi",
       "Mac": {
-        "trackColor": "bg",
-        "hoverTrackColor": "bg",
         "hoverThumbColor": "blue",
         "Transparent": {
           "hoverThumbColor": "blue"
