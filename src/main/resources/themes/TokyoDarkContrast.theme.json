@@ -88,7 +88,7 @@
       "endBorderColor": "bgHi",
       "startBackground": "hoverBackground",
       "endBackground": "hoverBackground",
-      "focusedBorderColor": "blue",
+      "focusedBorderColor": "purple",
       "disabledBorderColor": "bgHi",
       "default": {
         "foreground": "bgHi",
@@ -96,8 +96,8 @@
         "endBackground": "purple",
         "startBorderColor": "purple",
         "endBorderColor": "purple",
-        "focusColor": "blue",
-        "focusedBorderColor": "blue"
+        "focusColor": "purple",
+        "focusedBorderColor": "bgHi"
       }
     },
     "Counter": {
@@ -201,14 +201,6 @@
       },
       "selectionBackground": "selectionBackground",
       "selectionInactiveBackground": "selectionInactiveBackground"
-    },
-    "MainToolbar": {
-      "Icon": {
-        "insets": "5,5,5,5"
-      },
-      "Dropdown": {
-        "maxWidth": 350
-      }
     },
     "Notification": {
       "background": "bg",
