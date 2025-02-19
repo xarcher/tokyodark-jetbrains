@@ -269,7 +269,7 @@
       "failedEndColor": "red",
       "failedColor": "red1",
       "trackColor": "selectionBackground",
-      "progressColor": "blue1",
+      "progressColor": "magenta",
       "indeterminateStartColor": "blue",
       "indeterminateEndColor": "magenta",
       "passedEndColor": "green1",
