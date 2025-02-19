@@ -349,7 +349,7 @@
       "hoverBackground": "hoverBackground",
       "background": "bgHi",
       "selectionBackground": "selectionBackground",
-      "lightSelectionBackground": "bgHi"
+      "lightSelectionBackground": "selectionBackground"
     },
     "TableHeader": {
       "bottomSeparatorColor": "separatorColor"
@@ -429,7 +429,7 @@
       },
       "separatorColor": "separatorColor",
       "Projects": {
-        "background": "bg",
+        "background": "bgHi",
         "selectionBackground": "selectionBackground",
         "selectionInactiveBackground": "selectionBackground",
         "actions": {
