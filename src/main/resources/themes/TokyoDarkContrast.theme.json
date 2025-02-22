@@ -156,13 +156,13 @@
       "hoverBackground": "fgGutter",
       "background": "bgHi",
       "borderColor": "bg",
-      "underlineColor": "orange",
+      "underlineColor": "purple",
       "underlinedTabBackground": "bg"
     },
     "EditorTabs": {
       "background": "bgHi",
       "underlinedTabBackground": "bg",
-      "underlineColor": "orange",
+      "underlineColor": "purple",
       "underlineHeight.compact": 1
     },
     "FileColor": {
@@ -329,7 +329,7 @@
       "tabSelectionHeight": 1,
       "focusColor": "hoverBackground",
       "hoverColor": "hoverBackground",
-      "underlineColor": "blue",
+      "underlineColor": "purple",
       "contentAreaColor": "hoverBackground"
     },
     "Table": {
@@ -364,7 +364,7 @@
         "inactiveBackground": "bgHi"
       },
       "HeaderTab": {
-        "underlineColor": "blue",
+        "underlineColor": "purple",
         "underlineHeight": 1,
         "underlinedTabBackground": "bg"
       }
@@ -424,7 +424,8 @@
           "background": "bg"
         }
       },
-      "Details.background": "bg"
+      "Details.background": "bg",
+      "footerBackground": "bg"
     },
     "Window.undecorated.border": "1,1,1,1"
   },
