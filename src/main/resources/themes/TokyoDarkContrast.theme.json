@@ -71,10 +71,11 @@
       "ContrastBorderColor": "hoverBackground"
     },
     "ActionButton": {
-      "hoverBackground": "hoverBackground",
-      "hoverBorderColor": "hoverBackground",
-      "pressedBackground": "hoverBackground",
-      "pressedBorderColor": "hoverBackground"
+      "hoverBackground": "blue7",
+      "hoverBorderColor": "blue7",
+      "pressedBackground": "selectionBackground",
+      "pressedBorderColor": "selectionBackground",
+      "separatorColor": "separatorColor"
     },
     "Bookmark": {
       "iconBackground": "blue",
