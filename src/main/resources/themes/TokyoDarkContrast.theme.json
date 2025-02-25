@@ -71,7 +71,7 @@
       "ContrastBorderColor": "hoverBackground"
     },
     "ActionButton": {
-      "hoverBackground": "blue7",
+      "hoverBackground": "hoverBackground",
       "hoverBorderColor": "blue7",
       "pressedBackground": "selectionBackground",
       "pressedBorderColor": "selectionBackground",
@@ -322,9 +322,6 @@
     },
     "Spinner": {
       "minimumSize": "72,28"
-    },
-    "StatusBar": {
-      "borderColor": "bg"
     },
     "TabbedPane": {
       "tabSelectionHeight": 1,
